@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+}
+main {
+    font-size: 18px;
+    margin: 0;
+    padding: 105px;
+    background-color: black;
+    color: white;
+}
+
+header {
+    text-transform: uppercase;
+    background-color: rgb(43, 99, 43);
+    padding: 18px;
+    display: flow-root;
+}
+
+header a {
+    display: inline;
+    padding: 14px 16px;
+    font-size: 21px;
+    text-decoration: none;
+    transition: 0.75s;
+    width: 25px;
+    color : white;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+header a:hover {
+    background-color: white;
+    color: black;
+}
+
+#showcase {
+    margin: 0;
+    padding: 0 20px;
+    line-height: 1.6;
+    background-image:url('../photos/PARTY_3.jpg');
+    background-size: center;
+    background-position: center;
+    height: 100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+#showcase h1 {
+    font-size: 50px;
+    font-family: 'Otomanopee One', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#showcase-join {
+    font-size: 18px;
+    text-decoration: none;
+    border:white 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    color: white;
+    transition: 0.3s;
+    margin-top: 20px;
+}
+
+#showcase-join:hover {
+    background-color: white;
+    color: black;
+}
+
+#section-a {
+    padding: 20px;
+    background: purple;
+    color: #fff;
+    text-align: center;
+}
+#section-b {
+    padding: 20px;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+#section-c {
+    display: flex;
+    font-size: 25px;
+}
+
+#section-c div {
+    padding: 20px;
+}
+
+#section-c .box-1, #sectionc .box-2, #section-c .box-3 {
+    background-image: url(../photos/HANDS_IN_THE_AIR.jpg);
+    color: white; 
+}
+#clockDisplay {
+    float: right;
+    color: white;
+}
